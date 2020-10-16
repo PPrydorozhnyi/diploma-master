@@ -32,7 +32,6 @@ import java.util.List;
 @Import(BeanValidatorPluginsConfiguration.class)
 public class SwaggerConfig {
 
-    static final String SWAGGER_UI_URL = "/swagger-ui.html";
     private static final String AUTHORIZATION_HEADER = "Authorization";
 
     @Bean
@@ -49,7 +48,7 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Diploma API by Petro Prudorozhnyi")
+                .title("Diploma API by Petro Prydorozhnyi")
                 .version("1.0")
                 .build();
     }
