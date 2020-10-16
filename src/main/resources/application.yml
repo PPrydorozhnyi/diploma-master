@@ -1,1 +1,17 @@
+server:
+  port: 8090
 
+debug: true
+
+logging:
+  level:
+    com: debug
+
+date:
+  pattern: yyyy-MM-dd HH:mm
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics
