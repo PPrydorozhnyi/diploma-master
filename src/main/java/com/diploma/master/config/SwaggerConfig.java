@@ -37,7 +37,7 @@ public class SwaggerConfig {
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2).select()
-                .apis(RequestHandlerSelectors.basePackage("com.diploma.backend.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("com.diploma.master.controller"))
                 .paths(PathSelectors.any())
                 .build()
                 .useDefaultResponseMessages(false)

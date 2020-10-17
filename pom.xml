@@ -19,6 +19,7 @@
         <testcontainers.version>1.14.3</testcontainers.version>
         <model.mapper.version>2.3.0</model.mapper.version>
 		<swagger.version>2.9.2</swagger.version>
+        <jsoup.version>1.10.2</jsoup.version>
     </properties>
 
     <dependencies>
@@ -133,16 +134,21 @@
 			<version>${swagger.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-bean-validators -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-bean-validators</artifactId>
-			<version>${swagger.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger-ui</artifactId>
-			<version>${swagger.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-bean-validators</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>${jsoup.version}</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
