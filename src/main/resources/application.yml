@@ -18,3 +18,15 @@ management:
 
 minfin:
   gas: https://index.minfin.com.ua/ua/tariff/gas/
+
+spring:
+  data:
+    mongodb:
+      database: ${DBNAME}
+      host: ${DBHOST}
+      password: ${DBPASS}
+      port: ${DBPORT}
+      username: ${DBUSER}
+
+application:
+  stackTraceEnabled: true
