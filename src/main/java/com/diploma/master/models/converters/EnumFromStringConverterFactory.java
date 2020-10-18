@@ -1,15 +1,14 @@
-package com.diploma.master.model.converters;
+package com.diploma.master.models.converters;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.Optional;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.convert.converter.ConverterFactory;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ReflectionUtils;
-
-import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.Optional;
 
 @Component
 @SuppressWarnings("unchecked")

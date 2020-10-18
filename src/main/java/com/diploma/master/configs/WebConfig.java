@@ -1,6 +1,6 @@
-package com.diploma.master.config;
+package com.diploma.master.configs;
 
-import com.diploma.master.model.converters.EnumFromStringConverterFactory;
+import com.diploma.master.models.converters.EnumFromStringConverterFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

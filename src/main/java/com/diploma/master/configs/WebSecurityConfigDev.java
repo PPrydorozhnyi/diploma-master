@@ -1,4 +1,4 @@
-package com.diploma.master.config;
+package com.diploma.master.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
